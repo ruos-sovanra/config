@@ -1,0 +1,11 @@
+#For product service 
+spring:
+  datasource:
+    url: ${url}
+    username: ${username}
+    password: ${password}
+    driverClassName: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
